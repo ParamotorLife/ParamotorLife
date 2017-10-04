@@ -58,6 +58,11 @@ jQuery(document).ready(function(event){
       setTimeout(function(){
         //wait for the end of the transition on the loading bar before revealing the new content
         ( section.hasClass('cd-about') ) ? $('body').addClass('cd-about') : $('body').removeClass('cd-about');
+	( section.hasClass('cd-one') ) ? $('body').addClass('cd-one') : $('body').removeClass('cd-one');
+	( section.hasClass('cd-two') ) ? $('body').addClass('cd-two') : $('body').removeClass('cd-two');
+	( section.hasClass('cd-three') ) ? $('body').addClass('cd-three') : $('body').removeClass('cd-three');
+	( section.hasClass('cd-four') ) ? $('body').addClass('cd-four') : $('body').removeClass('cd-four');
+	( section.hasClass('cd-five') ) ? $('body').addClass('cd-five') : $('body').removeClass('cd-five');
         $('body').removeClass('page-is-changing');
         $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
           isAnimating = false;
