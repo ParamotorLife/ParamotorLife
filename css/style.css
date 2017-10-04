@@ -71,7 +71,7 @@ Patterns - reusable parts of our design
 .cd-bible .cd-btn {
   background-color: #4089a6;
 }
-.cd-two .cd-btn {
+.cd-posts .cd-btn {
   background-color: #4089a6;
 }
 .cd-three .cd-btn {
@@ -246,6 +246,25 @@ main .cd-main-content.cd-bible::before {
 }
 
 
+main .cd-main-content.cd-posts {
+  /* .cd-main-content basic style - about page */
+  background-color: #283040;
+}
+main .cd-main-content.cd-posts > div {
+  padding-top: 50px;
+}
+main .cd-main-content.cd-posts::after {
+  background-color: rgba(40, 48, 64, 0);
+  background-image: -webkit-linear-gradient(bottom, #283040, rgba(40, 48, 64, 0));
+  background-image: linear-gradient(to top,#283040, rgba(40, 48, 64, 0));
+}
+main .cd-main-content.cd-posts::before {
+  background-color: rgba(40, 48, 64, 0);
+  background-image: -webkit-linear-gradient(top, #283040, rgba(40, 48, 64, 0));
+  background-image: linear-gradient(to bottom,#283040, rgba(40, 48, 64, 0));
+}
+
+
 
 
 
@@ -319,6 +338,9 @@ main p {
 .cd-bible .cd-cover-layer {
   background-color: #283040;
 }
+.cd-posts .cd-cover-layer {
+  background-color: #283040;
+}
 
 
 
@@ -387,6 +409,13 @@ main p {
 .cd-bible .cd-loading-bar::before {
   background-color: #4089a6;
 }
+.cd-posts .cd-loading-bar {
+  background-color: #283040;
+}
+.cd-posts .cd-loading-bar::before {
+  background-color: #4089a6;
+}
+
 
 
 
