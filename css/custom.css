@@ -1,5 +1,9 @@
 main .cd-main-content.cd-index {
-    background-image: url(../img/7.jpg);
+    background-image: url(../img/7.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 main .cd-main-content.cd-index::before {
     background-color: rgba(64, 137, 166, 0);
