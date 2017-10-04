@@ -68,7 +68,7 @@ Patterns - reusable parts of our design
 .cd-about .cd-btn {
   background-color: #4089a6;
 }
-.cd-one .cd-btn {
+.cd-bible .cd-btn {
   background-color: #4089a6;
 }
 .cd-two .cd-btn {
@@ -227,19 +227,19 @@ main .cd-main-content.cd-about::before {
 }
 
 
-main .cd-main-content.cd-one {
+main .cd-main-content.cd-bible {
   /* .cd-main-content basic style - about page */
   background-color: #283040;
 }
-main .cd-main-content.cd-one > div {
+main .cd-main-content.cd-bible > div {
   padding-top: 50px;
 }
-main .cd-main-content.cd-one::after {
+main .cd-main-content.cd-bible::after {
   background-color: rgba(40, 48, 64, 0);
   background-image: -webkit-linear-gradient(bottom, #283040, rgba(40, 48, 64, 0));
   background-image: linear-gradient(to top,#283040, rgba(40, 48, 64, 0));
 }
-main .cd-main-content.cd-one::before {
+main .cd-main-content.cd-bible::before {
   background-color: rgba(40, 48, 64, 0);
   background-image: -webkit-linear-gradient(top, #283040, rgba(40, 48, 64, 0));
   background-image: linear-gradient(to bottom,#283040, rgba(40, 48, 64, 0));
@@ -316,7 +316,7 @@ main p {
 .cd-about .cd-cover-layer {
   background-color: #283040;
 }
-.cd-one .cd-cover-layer {
+.cd-bible .cd-cover-layer {
   background-color: #283040;
 }
 
@@ -381,10 +381,10 @@ main p {
 .cd-about .cd-loading-bar::before {
   background-color: #4089a6;
 }
-.cd-one .cd-loading-bar {
+.cd-bible .cd-loading-bar {
   background-color: #283040;
 }
-.cd-one .cd-loading-bar::before {
+.cd-bible .cd-loading-bar::before {
   background-color: #4089a6;
 }
 
