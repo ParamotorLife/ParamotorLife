@@ -26,7 +26,7 @@ jQuery(document).ready(function(event){
 
       if( !isAnimating  &&  newLocation != newPage ) changePage(newPage, false);
     }
-    firstLoad = true;
+    firstLoad = false;
 	});
 
 	function changePage(url, bool) {
