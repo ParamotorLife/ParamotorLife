@@ -60,9 +60,6 @@ jQuery(document).ready(function(event){
         ( section.hasClass('cd-about') ) ? $('body').addClass('cd-about') : $('body').removeClass('cd-about');
 	( section.hasClass('cd-bible') ) ? $('body').addClass('cd-bible') : $('body').removeClass('cd-bible');
 	( section.hasClass('cd-posts') ) ? $('body').addClass('cd-posts') : $('body').removeClass('cd-posts');
-	( section.hasClass('cd-three') ) ? $('body').addClass('cd-three') : $('body').removeClass('cd-three');
-	( section.hasClass('cd-four') ) ? $('body').addClass('cd-four') : $('body').removeClass('cd-four');
-	( section.hasClass('cd-five') ) ? $('body').addClass('cd-five') : $('body').removeClass('cd-five');
         $('body').removeClass('page-is-changing');
         $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
           isAnimating = false;
