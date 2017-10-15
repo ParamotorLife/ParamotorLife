@@ -18,6 +18,16 @@
 <body class="zee-body cd-index">
 <main>
 	<div class="cd-index cd-main-content zee-content">
+		<script>
+			window.onload = function() {
+			    if(!window.location.hash) {
+				window.location = window.location + '#loaded';
+				window.location.reload();
+			    }
+			}
+		</script>
+		
+		
 		<div>
 			<h1>Paramotor Life</h1>
 
