@@ -65,13 +65,7 @@ Patterns - reusable parts of our design
 
 
 
-.cd-about .cd-btn {
-  background-color: #4089a6;
-}
-.cd-bible .cd-btn {
-  background-color: #4089a6;
-}
-.cd-posts .cd-btn {
+.zee-body .cd-btn {
   background-color: #4089a6;
 }
 .cd-three .cd-btn {
@@ -208,66 +202,23 @@ main .cd-main-content.cd-index::before {
 
 
 
-main .cd-main-content.cd-about {
+main .cd-main-content.zee-content {
   /* .cd-main-content basic style - about page */
   background-color: #283040;
 }
-main .cd-main-content.cd-about > div {
+main .cd-main-content.zee-content > div {
   padding-top: 50px;
 }
-main .cd-main-content.cd-about::after {
+main .cd-main-content.zee-content::after {
   background-color: rgba(40, 48, 64, 0);
   background-image: -webkit-linear-gradient(bottom, #283040, rgba(40, 48, 64, 0));
   background-image: linear-gradient(to top,#283040, rgba(40, 48, 64, 0));
 }
-main .cd-main-content.cd-about::before {
+main .cd-main-content.zee-content::before {
   background-color: rgba(40, 48, 64, 0);
   background-image: -webkit-linear-gradient(top, #283040, rgba(40, 48, 64, 0));
   background-image: linear-gradient(to bottom,#283040, rgba(40, 48, 64, 0));
 }
-
-
-main .cd-main-content.cd-bible {
-  /* .cd-main-content basic style - about page */
-  background-color: #283040;
-}
-main .cd-main-content.cd-bible > div {
-  padding-top: 50px;
-}
-main .cd-main-content.cd-bible::after {
-  background-color: rgba(40, 48, 64, 0);
-  background-image: -webkit-linear-gradient(bottom, #283040, rgba(40, 48, 64, 0));
-  background-image: linear-gradient(to top,#283040, rgba(40, 48, 64, 0));
-}
-main .cd-main-content.cd-bible::before {
-  background-color: rgba(40, 48, 64, 0);
-  background-image: -webkit-linear-gradient(top, #283040, rgba(40, 48, 64, 0));
-  background-image: linear-gradient(to bottom,#283040, rgba(40, 48, 64, 0));
-}
-
-
-main .cd-main-content.cd-posts {
-  /* .cd-main-content basic style - about page */
-  background-color: #283040;
-}
-main .cd-main-content.cd-posts > div {
-  padding-top: 50px;
-}
-main .cd-main-content.cd-posts::after {
-  background-color: rgba(40, 48, 64, 0);
-  background-image: -webkit-linear-gradient(bottom, #283040, rgba(40, 48, 64, 0));
-  background-image: linear-gradient(to top,#283040, rgba(40, 48, 64, 0));
-}
-main .cd-main-content.cd-posts::before {
-  background-color: rgba(40, 48, 64, 0);
-  background-image: -webkit-linear-gradient(top, #283040, rgba(40, 48, 64, 0));
-  background-image: linear-gradient(to bottom,#283040, rgba(40, 48, 64, 0));
-}
-
-
-
-
-
 
 
 
